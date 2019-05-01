@@ -37,6 +37,18 @@ Plugins are restored when reinstall Bundler.
   ```
 - Input all field yourself :)
 
+## Samples
+### import plugin from json
+1. copy url
+2. paste url to `Fetch from url` field
+3. click `fetch json`
+4. applying code with `save` button
+
+### try some plugins
+- css
+  - set background image: [url](https://gist.githubusercontent.com/charlie043/1eb4cbf11f80f84130a83f6b1f9ab4b4/raw/bb690757f61720c04e2b5f322ad19443b0fb0c0d/background-image.json)
+  - split each messages: [url](https://gist.githubusercontent.com/charlie043/8913452890c2572b634368945e105621/raw/791ad768e205a6f96a8402484729e0b3cd68d7e4/split-each-messages.json)
+
 ## Develop Plugins
 
 ```sh
