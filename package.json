@@ -1,0 +1,33 @@
+{
+  "name": "slack-plugin-bundler",
+  "version": "1.0.0",
+  "description": "Slack Customize Plugin Bundler for Mac.",
+  "scripts": {
+    "build": "parcel build --no-source-maps --no-cache ./src/app/index.tsx",
+    "dev": "parcel ./src/app/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^11.13.8",
+    "@types/react": "^16.8.12",
+    "@types/react-dom": "^16.8.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "gulp": "^4.0.0",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-typescript": "^1.0.0",
+    "typescript": "^3.4.2"
+  }
+}
